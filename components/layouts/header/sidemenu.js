@@ -11,7 +11,7 @@ export default function SideMenu() {
             <div className="menu-hide">
                 <div className="side-about">
                     <Image src="/img/tony/new_position.png"
-                        layout='fill'
+                        layout='fixed' width={240} height={160}
                         alt="thumb" />
                     <h5 className="about-sub-title mt-30">
                         Finding New Position
@@ -45,13 +45,13 @@ export default function SideMenu() {
                                 <i className="fas fa-map-marker-alt"></i>
                             </div>
                             <div className="side-addr-desc">
-                                <span>FA - 154 Careon Street</span> 
+                                <span>Liaoning Dandong wuan bao district, China</span> 
                             </div>
                         </div>
                     </div>
                     <ul className="side-social">
-                        <li><a href="#"><i className="fab fa-git"></i></a></li>
-                        <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="http://github.com/tony-fullstack-515"><i className="fab fa-git"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/tony-zou-88397519a/"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>

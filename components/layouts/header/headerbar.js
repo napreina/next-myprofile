@@ -1,5 +1,6 @@
 import Navbar from "./navbar";
 import SideMenu from "./sidemenu";
+import Script from "next/script";
 
 export default function HeaderBar() {
     return (
@@ -26,6 +27,7 @@ export default function HeaderBar() {
             </nav>
           </div>
         </header>
+        <Script src="/js/jquery-1.12.4.min.js" strategy="beforeInteractive" />
       </>
     );
 }
