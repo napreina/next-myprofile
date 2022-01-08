@@ -36,3 +36,7 @@ a {
   background: url('/img/logo/pre-loader.gif') center no-repeat var(--clr-white);
   text-align: center;
 }
+
+.error {
+  color:coral;
+}

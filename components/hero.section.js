@@ -12,7 +12,7 @@ export default function HeroSection() {
                 backgroundImage: "url('/img/tony/02.header.jpg')",
             }}
             >
-            <canvas className="canvasParticles-two" layout="fill"></canvas>
+            <canvas className="canvasParticles-two"></canvas>
             <div className="container">
                 <div className="row g-5">
                 <div className="col-xl-8">

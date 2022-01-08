@@ -8,6 +8,7 @@ import FeedArea from "../components/feedarea";
 import ContractArea from "../components/contractarea";
 import ScreenTopButton from "../components/screentopbutton";
 import PreloaderComp from "../components/preloader.comp";
+import ContactForm from "../components/contactform";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
       <CounterArea />
       <ProjectArea />
       <FeedArea />
-      <ContractArea />
+      <ContractArea>
+        <ContactForm/>
+      </ContractArea>
       <ScreenTopButton />
       </main>
       <div className="clearfix"></div>

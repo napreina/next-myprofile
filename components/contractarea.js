@@ -1,4 +1,4 @@
-export default function ContractArea() {
+export default function ContractArea({children}) {
     return (
         <>
         <div id="contact" className="contact-area de-pt wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
@@ -57,34 +57,7 @@ export default function ContractArea() {
 								</div>								
 							</div>
 						</div>
-						
-						<form className="contact-form" id="contact-form" action="https://themetum.com/koyta/koyta-two/php/contact.php" method="POST">	
-							<h4 className="contact-tl">Send Message</h4>							
-							<div className="row g-4">
-								<div className="col-md-6 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".3s">
-									<input type="text" name="name" className="form-control input-style-2" placeholder="Your Full Name*" />
-								</div>								
-								<div className="col-md-6 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
-									<input type="email" name="email" className="form-control input-style-2" placeholder="Your Email Address*" />
-								</div>								
-								<div className="col-md-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s">
-									<input type="text" name="subject" className="form-control input-style-2" placeholder="Subject..." />
-								</div>
-								<div className="col-md-12 wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".5s">
-									<textarea className="form-control input-style-2" name="message" placeholder="Your Message..."></textarea>
-								</div>
-								<div className="col-md-12 mt-50 contact-sub-btn text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s">
-									<button type="submit" id="submit" className="tm-btn-2">
-										Submit Message 
-										<i className="fas fa-chevron-right"></i>
-									</button>
-								</div>
-								<div className="col-md-12 mt-20">
-									<p className="form-message"></p>
-								</div>
-							</div>
-						</form>
-						
+						{children}						
 					</div>
 				</div>
 			</div>

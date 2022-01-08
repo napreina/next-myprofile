@@ -1,10 +1,10 @@
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function SkillArea () {
     return (
         <>
-        <div id="skill" className="video-area vid-ov de-padding" style={{ backgroundImage: "url('/img/tony/parallax-skill.jpg')"}}>
+        <div id="skill" className="video-area vid-ov de-padding" style={{ backgroundImage: "url(/img/tony/parallax-skill.jpg)"}}>
 			<div className="container">
 				<div className="video-wpr">
 					<div className="row">
@@ -55,7 +55,7 @@ export default function SkillArea () {
 								<h5>My Education</h5>
 								
 								<ul className="ml-20">
-									<li className="emp-history"> Bachelor's degree, Computer Programming, Specific Applications at Eastern Liaoning University.  <small>Apr, 2010 - Oct, 2014</small></li>
+									<li className="emp-history"> Bachelor`s degree, Computer Programming, Specific Applications at Eastern Liaoning University.  <small>Apr, 2010 - Oct, 2014</small></li>
 								</ul>
 
 								<h5 className="mt-30">My Language</h5>
