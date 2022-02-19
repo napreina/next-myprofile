@@ -26,8 +26,8 @@ export default function ContractArea({children}) {
 										</div>
 										<div className="contact-addr-desc">
 											<h4>Phone Number</h4>
-											<span>+860-18641531562,</span> <br/>
-											<span>+01-35363782588</span>
+											{/* <span>+860-18641531562,</span> <br/> */}
+											<span>+012202135621</span>
 										</div>
 									</div>
 								</div>

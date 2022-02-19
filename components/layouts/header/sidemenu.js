@@ -29,7 +29,7 @@ export default function SideMenu() {
                                 <i className="fas fa-phone"></i>
                             </div>
                             <div className="side-addr-desc">
-                                <span>+860-18641531562</span>
+                                <span>+012202135621</span>
                             </div>
                         </div>
                         <div className="side-addr-box">
@@ -45,7 +45,7 @@ export default function SideMenu() {
                                 <i className="fas fa-map-marker-alt"></i>
                             </div>
                             <div className="side-addr-desc">
-                                <span>Liaoning Dandong wuan bao district, China</span> 
+                                <span> 30 Lytton Blvd Toronto, ON M4R 1L1, Canada</span> 
                             </div>
                         </div>
                     </div>

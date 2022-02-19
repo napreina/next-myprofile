@@ -47,7 +47,7 @@ export default function HeroSection() {
                         </div>
                         <div className="hero-btn">
                         <a
-                            href="/resume/1_Tony_Zou_-_Full_Stack_PHP_Developer.pdf"
+                            href="/resume/Tony_Zou_-_Full_Stack_PHP_Developer.pdf"
                             target="_blank"
                             className="tm-btn-1 demo2"
                         >
