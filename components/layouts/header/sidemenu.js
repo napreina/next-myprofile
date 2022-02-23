@@ -29,7 +29,7 @@ export default function SideMenu() {
                                 <i className="fas fa-phone"></i>
                             </div>
                             <div className="side-addr-desc">
-                                <span>+012202135621</span>
+                                <span>+1 702 987 9724</span>
                             </div>
                         </div>
                         <div className="side-addr-box">
