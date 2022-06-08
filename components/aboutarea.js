@@ -36,7 +36,7 @@ export default function AboutArea() {
 										</p>
 									</div>
 									<div className="about-btns">
-										<a href="/resume/1_Tony_Zou_-_Full_Stack_PHP_Developer.pdf" className="tm-btn-2">
+										<a href="/resume/Tony_Zou_-_Full_Stack_PHP_Developer.pdf" className="tm-btn-2">
 											Download CV 
 											<i className="fas fa-arrow-down"></i>
 										</a>
