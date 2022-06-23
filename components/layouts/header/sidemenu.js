@@ -41,12 +41,12 @@ export default function SideMenu() {
                             </div>
                         </div>
                         <div className="side-addr-box">
-                            <div className="side-addr-icon">
+                            {/* <div className="side-addr-icon">
                                 <i className="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div className="side-addr-desc">
+                            </div> */}
+                            {/* <div className="side-addr-desc">
                                 <span> 30 Lytton Blvd Toronto, ON M4R 1L1, Canada</span> 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <ul className="side-social">
